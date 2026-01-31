@@ -43,3 +43,20 @@ Se listaron los archivos y luego use cat para poder abrirlo y se puso ./ porque 
 
 ## Contraseña obtenida:
 MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+## Bandit nivel 3
+**Objetivo:**
+encontrar la contraseña del siguiente nivel con un directorio y un archivo oculto.
+**Comandos Utilizados**
+```bash
+ls
+cd
+ls -la
+find 
+cat 
+
+## Explicación
+Se listaron las carpetas y luego al entrar se encontro  el archivo oculto y se pudo encontrar la contraseña.
+
+# Contraseña obtenida: 
+2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
