@@ -15,7 +15,8 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 ## Bandit nivel 1
 **Objetivo:**
-encontrar la contraseña del siguiente nivel
+encontrar la contraseña del siguiente nivel 
+**comandos utilizados**
 ```bash
 ls
 ls -l
@@ -26,3 +27,19 @@ se listaron los archivos y luego use esa configuración de cat para poderlo abri
 
 ## contraseña obtenida:
 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+## Bandit nivel 2
+**Objetivo:**
+encontrar la contraseña del siguiente nivel en un archivo con un nombre raro igual con - y espacios.
+**Comandos utilizados** 
+``` bash
+ls
+ls -l
+cat ./ separado asi --spaces\ ... \
+
+## Explicación
+Se listaron los archivos y luego use cat para poder abrirlo y se puso ./ porque sino los - confunden a cat según lo que investige.
+
+
+## Contraseña obtenida:
+MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
