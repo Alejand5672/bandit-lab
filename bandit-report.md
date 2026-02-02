@@ -112,3 +112,19 @@ esta estuvo complicada por los permisos y todo pero investige el comando de find
 
 ## Contraseña
 morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+## BANDIT NIVEL 7
+**Objetivo** 
+Encontrar la contraseña del nivel si decia que estaba junto a la palabra millionth
+**Comandos utilizados**
+```bash
+ls
+ls -la
+cat (Abrio todo y tardo mucho)
+grep
+
+## Explicación
+falle porque no sabia usar grep desde el inicio y pues lo abri y estaba lleno de texto, pero con grep la contraseña se mostró justo al lado.
+
+## Contraseña
+dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
