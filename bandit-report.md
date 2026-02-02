@@ -144,3 +144,18 @@ se uso sort y uniq -u para que asi solo se mostrara la linea no repetida
 
 ## Contraseña
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
+## BANDIT NIVEL 9
+***Objetivo*
+el nivel pide encontrar la contraseña en una de las cadenas leidas por humanos, precedida por varios caracteres "="
+**comandos utilizados**
+```bash
+ls
+strings (por la busqueda de las cadenas)
+grep
+
+## Explicación
+intente usar solo grep pero no devolvio entonces investigue y vi que era porque habia que usarlo con strings para que mostrara los resultados.
+
+## Contraseña:
+FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
