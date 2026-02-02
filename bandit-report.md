@@ -94,3 +94,21 @@ se listaron las carpetas, se busco con find y luego se fue directo a la carpeta 
 
 ## Contraseña:
 HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+## BANDIT NIVEL 6
+**Objetivo**
+Encontrar la contraseña del nivel cuando te dan las propiedades
+**Comandos utilizados**
+```bash
+
+ls 
+ls -la
+find .
+cd dando la ruta del find
+cat
+
+## Explicacion 
+esta estuvo complicada por los permisos y todo pero investige el comando de find que me dejara encontrarlo
+
+## Contraseña
+morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
