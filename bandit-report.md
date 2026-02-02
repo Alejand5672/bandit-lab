@@ -128,3 +128,19 @@ falle porque no sabia usar grep desde el inicio y pues lo abri y estaba lleno de
 
 ## Contraseña
 dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+## BANDIT NIVEL 8
+**Objetivo**
+encontrar la contraseña del nivel 8 que decia que era la unica linea repetida
+**Comandos utilizados**
+```bash
+
+ls
+sort
+uniq -u
+
+## Explicación 
+se uso sort y uniq -u para que asi solo se mostrara la linea no repetida
+
+## Contraseña
+4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
