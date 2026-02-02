@@ -146,7 +146,7 @@ se uso sort y uniq -u para que asi solo se mostrara la linea no repetida
 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 ## BANDIT NIVEL 9
-***Objetivo*
+***Objetivo:*
 el nivel pide encontrar la contraseña en una de las cadenas leidas por humanos, precedida por varios caracteres "="
 **comandos utilizados**
 ```bash
@@ -159,3 +159,18 @@ intente usar solo grep pero no devolvio entonces investigue y vi que era porque 
 
 ## Contraseña:
 FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+## BANDIT NIVEL 10
+**Objetivo:**
+Econtrar la contraseña del nivel si el archivo data.txt está codificado en base64
+**Comandos utilzados**
+```bash
+
+ls
+base64 -d
+
+## Explicación
+vi en las instrucciones que decia que el archivo estaba codificado en base64, entonces investigue como usar su comando base64 para encontrar la contraseña al decodificar.
+
+##Contraseña: 
+dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
